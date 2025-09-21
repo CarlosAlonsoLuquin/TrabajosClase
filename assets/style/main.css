@@ -1,0 +1,28 @@
+#primero {
+  background-color: beige;
+}
+a:hover {
+  background-color: chocolate;
+}
+h2:hover {
+  background-color: blueviolet;
+}
+h1:hover {
+  background-color: blueviolet;
+}
+
+p strong {
+  background-color: green;
+}
+p:hover {
+  background-color: cornflowerblue;
+}
+ol:first-line {
+  background-color: brown;
+}
+li:last-child {
+  background-color: gray;
+}
+p::first-letter {
+  font-size: x-large;
+}
