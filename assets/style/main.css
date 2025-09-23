@@ -26,3 +26,15 @@ li:last-child {
 p::first-letter {
   font-size: x-large;
 }
+#primero{
+  padding: 10px 50px 30px 55px;
+}
+#segundo{
+  border: 5px;
+  border-style: outset;
+  border-color: blue;
+  border-radius: 25px;
+}
+#tercero{
+  margin: 50px;
+}
