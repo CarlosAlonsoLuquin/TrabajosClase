@@ -16,6 +16,7 @@ p strong {
 }
 p:hover {
   background-color: cornflowerblue;
+  opacity: 15px;
 }
 ol:first-line {
   background-color: brown;
@@ -37,4 +38,10 @@ p::first-letter {
 }
 #tercero{
   margin: 50px;
+}
+#primero{
+  background-image: url("../img/itadori.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 500px;
 }
