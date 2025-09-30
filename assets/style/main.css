@@ -27,21 +27,50 @@ li:last-child {
 p::first-letter {
   font-size: x-large;
 }
-#primero{
+#primero {
   padding: 10px 50px 30px 55px;
 }
-#segundo{
+#segundo {
   border: 5px;
   border-style: outset;
   border-color: blue;
   border-radius: 25px;
 }
-#tercero{
+#tercero {
   margin: 50px;
 }
-#primero{
+#primero {
   background-image: url("../img/itadori.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 500px;
+}
+.container {
+  display: grid;
+  
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+
+}
+.container > div {
+  background-color: aquamarine;
+  
+}
+.nav_grid{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.content_grid{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.sidebar_grid{
+  grid-column: 3;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+.footer_grid{
+  grid-column-start: 1;
+  grid-column-end: 4;
+
 }
