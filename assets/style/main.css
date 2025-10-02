@@ -47,30 +47,48 @@ p::first-letter {
 }
 .container {
   display: grid;
-  
+
   grid-template-columns: auto auto auto;
   gap: 10px;
-
 }
 .container > div {
   background-color: aquamarine;
-  
 }
-.nav_grid{
+.nav_grid {
   grid-column-start: 1;
   grid-column-end: 4;
 }
-.content_grid{
+.content_grid {
   grid-column-start: 1;
   grid-column-end: 3;
 }
-.sidebar_grid{
+.sidebar_grid {
   grid-column: 3;
   grid-row-start: 2;
   grid-row-end: 5;
 }
-.footer_grid{
-  grid-column-start: 1;
-  grid-column-end: 4;
-
+.flex_container {
+  display: flex;
+  background-color: blue;
+  justify-content: center;
+  flex-direction: row;
+}
+.flex_container div {
+  background-color: azure;
+  margin: 10px;
+  padding: 20px;
+  font-size: 10px;
+}
+@media print {
+  #cover {
+    display: block;
+  }
+  .my_photo {
+    display: none;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 768px) {
+  .my_photo {
+    width: 80%;
+  }
 }
